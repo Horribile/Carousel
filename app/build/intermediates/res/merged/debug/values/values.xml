@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="entries">
+		<item>@drawable/cat</item>		
+		<item>@drawable/hippo</item>
+		<item>@drawable/monkey</item>		
+		<item>@drawable/mouse</item>
+		<item>@drawable/panda</item>		
+		<item>@drawable/rabbit</item>
+	</array>
+    <array name="names">
+	    <item>The cat</item>
+	    <item>The hippo</item>
+	    <item>The monkey</item>
+	    <item>The mouse</item>
+	    <item>The panda</item>
+	    <item>The rabbit</item>
+	</array>
+    <declare-styleable name="Carousel"><attr name="android:gravity"/><attr name="android:animationDuration"/><attr format="boolean" name="UseReflection"/><attr format="integer" name="Items"/><attr format="integer" name="SelectedItem"/><attr format="float" name="maxTheta"/><attr format="integer" name="minQuantity"/><attr format="integer" name="maxQuantity"/><attr format="string" name="Names"/></declare-styleable>
+    <string name="app_name">CarouselDemo</string>
+</resources>

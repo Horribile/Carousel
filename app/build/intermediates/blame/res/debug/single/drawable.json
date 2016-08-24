@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mouse.png",
+        "source": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\src\\main\\res\\drawable\\mouse.png"
+    },
+    {
+        "merged": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\monkey.png",
+        "source": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\src\\main\\res\\drawable\\monkey.png"
+    },
+    {
+        "merged": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cat.png",
+        "source": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\src\\main\\res\\drawable\\cat.png"
+    },
+    {
+        "merged": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rabbit.png",
+        "source": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\src\\main\\res\\drawable\\rabbit.png"
+    },
+    {
+        "merged": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\panda.png",
+        "source": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\src\\main\\res\\drawable\\panda.png"
+    },
+    {
+        "merged": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\hippo.png",
+        "source": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\src\\main\\res\\drawable\\hippo.png"
+    },
+    {
+        "merged": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "C:\\tools\\CustomProjects\\CarouselDemo\\app\\src\\main\\res\\drawable\\icon.png"
+    }
+]

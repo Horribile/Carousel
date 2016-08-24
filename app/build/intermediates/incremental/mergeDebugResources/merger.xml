@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res"/><source path="C:\tools\CustomProjects\CarouselDemo\app\build\generated\res\rs\debug"/><source path="C:\tools\CustomProjects\CarouselDemo\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\tools\CustomProjects\CarouselDemo\app\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res"><file name="cat" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\drawable\cat.png" qualifiers="" type="drawable"/><file name="hippo" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\drawable\hippo.png" qualifiers="" type="drawable"/><file name="icon" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\drawable\icon.png" qualifiers="" type="drawable"/><file name="monkey" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\drawable\monkey.png" qualifiers="" type="drawable"/><file name="mouse" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\drawable\mouse.png" qualifiers="" type="drawable"/><file name="panda" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\drawable\panda.png" qualifiers="" type="drawable"/><file name="rabbit" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\drawable\rabbit.png" qualifiers="" type="drawable"/><file name="item" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\layout\item.xml" qualifiers="" type="layout"/><file name="main" path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\values\arrays.xml" qualifiers=""><array name="entries">
+		<item>@drawable/cat</item>		
+		<item>@drawable/hippo</item>
+		<item>@drawable/monkey</item>		
+		<item>@drawable/mouse</item>
+		<item>@drawable/panda</item>		
+		<item>@drawable/rabbit</item>
+	</array><array name="names">
+	    <item>The cat</item>
+	    <item>The hippo</item>
+	    <item>The monkey</item>
+	    <item>The mouse</item>
+	    <item>The panda</item>
+	    <item>The rabbit</item>
+	</array></file><file path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="Carousel">
+		<attr name="android:gravity"/>	
+		<attr name="android:animationDuration"/>
+		<attr format="boolean" name="UseReflection"/>
+		<attr format="integer" name="Items"/>
+		<attr format="integer" name="SelectedItem"/>
+		<attr format="float" name="maxTheta"/>
+		<attr format="integer" name="minQuantity"/>
+		<attr format="integer" name="maxQuantity"/>
+		<attr format="string" name="Names"/>
+	</declare-styleable></file><file path="C:\tools\CustomProjects\CarouselDemo\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">CarouselDemo</string></file></source><source path="C:\tools\CustomProjects\CarouselDemo\app\build\generated\res\rs\debug"/><source path="C:\tools\CustomProjects\CarouselDemo\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\tools\CustomProjects\CarouselDemo\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="Carousel"><attr name="android:gravity"/><attr name="android:animationDuration"/><attr format="boolean" name="UseReflection"/><attr format="integer" name="Items"/><attr format="integer" name="SelectedItem"/><attr format="float" name="maxTheta"/><attr format="integer" name="minQuantity"/><attr format="integer" name="maxQuantity"/><attr format="string" name="Names"/></declare-styleable></configuration></mergedItems></merger>
