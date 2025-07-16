@@ -1,52 +1,30 @@
 package com.carouseldemo.main
 
 import android.os.Bundle
-import android.widget.Toast
-import androidx.activity.viewModels
-import androidx.appcompat.app.AppCompatActivity
-import com.carouseldemo.controls.Carousel
-import com.carouseldemo.controls.CarouselAdapter
-import com.carouseldemo.main.databinding.ActivityMainBinding
-import com.carouseldemo.main.viewmodel.MainViewModel
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.ui.Modifier
+import com.carouseldemo.main.ui.screens.MainScreen
+import com.carouseldemo.main.ui.theme.AnimalCarouselTheme
 
-class MainActivity : AppCompatActivity() {
-    
-    private lateinit var binding: ActivityMainBinding
-    private val viewModel: MainViewModel by viewModels()
+class MainActivity : ComponentActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        enableEdgeToEdge()
         
-        setupCarousel()
-        observeViewModel()
-    }
-    
-    private fun setupCarousel() {
-        val carousel = binding.carousel
-        
-        // Set up click listener
-        carousel.setOnItemClickListener { parent, _, position, _ ->
-            viewModel.getAnimalAt(position)?.let { animal ->
-                Toast.makeText(
-                    this,
-                    "${animal.shortName} has been clicked",
-                    Toast.LENGTH_SHORT
-                ).show()
-            }
-        }
-        
-        // Set up selection listener
-        carousel.setOnItemSelectedListener { _, _, position, _ ->
-            viewModel.selectAnimal(position)
-        }
-    }
-    
-    private fun observeViewModel() {
-        viewModel.selectedAnimal.observe(this) { animal ->
-            animal?.let {
-                binding.selectedItem.text = it.description
+        setContent {
+            AnimalCarouselTheme {
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+                    MainScreen()
+                }
             }
         }
     }
