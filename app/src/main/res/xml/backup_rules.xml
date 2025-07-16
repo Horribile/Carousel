@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude internal cache and temporary directories -->
+    <exclude domain="cache" />
+    <exclude domain="no_backup" />
+</full-backup-content>

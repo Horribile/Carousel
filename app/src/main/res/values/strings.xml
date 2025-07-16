@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">CarouselDemo</string>
+    <string name="app_name">Animal Carousel</string>
+    <string name="default_description">Select an animal from the carousel below to learn more about it!</string>
+    <string name="animal_clicked">%s has been clicked</string>
+    <string name="content_description_animal_image">Image of %s</string>
+    <string name="loading">Loading animals…</string>
+    <string name="error_loading_animals">Error loading animals. Please try again.</string>
 </resources>
